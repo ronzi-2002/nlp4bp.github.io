@@ -1,0 +1,27 @@
+{
+
+    "Hot-Cold":
+   [
+     {
+       "stage":4,
+       "content": "code stage 1 Hot-Cold"
+     },
+     {
+       "stage":2,
+       "content": "code stage 2 Hot-Cold"
+     }
+   ],
+   
+   "stadiums":
+   [
+     {
+       "stage":1,
+       "content": "code stage 1 stadiums"
+     },
+     {
+       "stage":2,
+       "content": "code stage 2 stadiums"
+     }
+   ]
+   
+ }

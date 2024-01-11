@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dynamic Menu</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/viz.js/2.1.2/viz.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/viz.js/2.1.2/full.render.js"></script>
+    <script async src=" ./index.js"></script>
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <style>
+      /* CSS for styling the menu */
+      /* Your CSS styles here */
+      .container {
+        display: flex;
+        align-items: flex-start;
+      }
+      #menu {
+        flex: 1;
+        padding-right: 20px;
+      }
+      #content {
+        flex: 2;
+        border: 1px solid #ccc;
+        padding: 20px;
+      }
+      #content2 {
+        /* background-color: #f2f2f2; */
+        padding: 10px;
+      }
+      .title {
+        cursor: pointer;
+        margin-bottom: 5px;
+      }
+      .active .title {
+        font-weight: bold;
+      }
+      .submenu {
+        margin-left: 20px;
+      }
+      .stage {
+        cursor: pointer;
+        margin-bottom: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="menu">
+        <!-- This is where the menu will be dynamically generated -->
+      </div>
+      <div id="content">
+        <div id="contentDisplay">
+          <div id="content2"></div>
+          <div id="content1" class="content"></div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // JavaScript code here
+    </script>
+  </body>
+</html>
